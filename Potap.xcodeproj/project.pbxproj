@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79C404BE259272DA00431C13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C404BD259272DA00431C13 /* AppDelegate.swift */; };
+		79C404C0259272DA00431C13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C404BF259272DA00431C13 /* SceneDelegate.swift */; };
+		79C404C2259272DA00431C13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C404C1259272DA00431C13 /* ViewController.swift */; };
+		79C404C5259272DA00431C13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79C404C3259272DA00431C13 /* Main.storyboard */; };
+		79C404C7259272DD00431C13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79C404C6259272DD00431C13 /* Assets.xcassets */; };
+		79C404CA259272DD00431C13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79C404C8259272DD00431C13 /* LaunchScreen.storyboard */; };
+		79C404D5259272DD00431C13 /* PotapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C404D4259272DD00431C13 /* PotapTests.swift */; };
+		79C404E0259272DD00431C13 /* PotapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C404DF259272DD00431C13 /* PotapUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79C404D1259272DD00431C13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79C404B2259272DA00431C13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79C404B9259272DA00431C13;
+			remoteInfo = Potap;
+		};
+		79C404DC259272DD00431C13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79C404B2259272DA00431C13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79C404B9259272DA00431C13;
+			remoteInfo = Potap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		79C404BA259272DA00431C13 /* Potap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Potap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79C404BD259272DA00431C13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		79C404BF259272DA00431C13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		79C404C1259272DA00431C13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		79C404C4259272DA00431C13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79C404C6259272DD00431C13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79C404C9259272DD00431C13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79C404CB259272DD00431C13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79C404D0259272DD00431C13 /* PotapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PotapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79C404D4259272DD00431C13 /* PotapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PotapTests.swift; sourceTree = "<group>"; };
+		79C404D6259272DD00431C13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79C404DB259272DD00431C13 /* PotapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PotapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79C404DF259272DD00431C13 /* PotapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PotapUITests.swift; sourceTree = "<group>"; };
+		79C404E1259272DD00431C13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79C404B7259272DA00431C13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79C404CD259272DD00431C13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79C404D8259272DD00431C13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79C404B1259272DA00431C13 = {
+			isa = PBXGroup;
+			children = (
+				79C404BC259272DA00431C13 /* Potap */,
+				79C404D3259272DD00431C13 /* PotapTests */,
+				79C404DE259272DD00431C13 /* PotapUITests */,
+				79C404BB259272DA00431C13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79C404BB259272DA00431C13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79C404BA259272DA00431C13 /* Potap.app */,
+				79C404D0259272DD00431C13 /* PotapTests.xctest */,
+				79C404DB259272DD00431C13 /* PotapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79C404BC259272DA00431C13 /* Potap */ = {
+			isa = PBXGroup;
+			children = (
+				79C404BD259272DA00431C13 /* AppDelegate.swift */,
+				79C404BF259272DA00431C13 /* SceneDelegate.swift */,
+				79C404C1259272DA00431C13 /* ViewController.swift */,
+				79C404C3259272DA00431C13 /* Main.storyboard */,
+				79C404C6259272DD00431C13 /* Assets.xcassets */,
+				79C404C8259272DD00431C13 /* LaunchScreen.storyboard */,
+				79C404CB259272DD00431C13 /* Info.plist */,
+			);
+			path = Potap;
+			sourceTree = "<group>";
+		};
+		79C404D3259272DD00431C13 /* PotapTests */ = {
+			isa = PBXGroup;
+			children = (
+				79C404D4259272DD00431C13 /* PotapTests.swift */,
+				79C404D6259272DD00431C13 /* Info.plist */,
+			);
+			path = PotapTests;
+			sourceTree = "<group>";
+		};
+		79C404DE259272DD00431C13 /* PotapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				79C404DF259272DD00431C13 /* PotapUITests.swift */,
+				79C404E1259272DD00431C13 /* Info.plist */,
+			);
+			path = PotapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79C404B9259272DA00431C13 /* Potap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79C404E4259272DD00431C13 /* Build configuration list for PBXNativeTarget "Potap" */;
+			buildPhases = (
+				79C404B6259272DA00431C13 /* Sources */,
+				79C404B7259272DA00431C13 /* Frameworks */,
+				79C404B8259272DA00431C13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Potap;
+			productName = Potap;
+			productReference = 79C404BA259272DA00431C13 /* Potap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79C404CF259272DD00431C13 /* PotapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79C404E7259272DD00431C13 /* Build configuration list for PBXNativeTarget "PotapTests" */;
+			buildPhases = (
+				79C404CC259272DD00431C13 /* Sources */,
+				79C404CD259272DD00431C13 /* Frameworks */,
+				79C404CE259272DD00431C13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79C404D2259272DD00431C13 /* PBXTargetDependency */,
+			);
+			name = PotapTests;
+			productName = PotapTests;
+			productReference = 79C404D0259272DD00431C13 /* PotapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		79C404DA259272DD00431C13 /* PotapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79C404EA259272DD00431C13 /* Build configuration list for PBXNativeTarget "PotapUITests" */;
+			buildPhases = (
+				79C404D7259272DD00431C13 /* Sources */,
+				79C404D8259272DD00431C13 /* Frameworks */,
+				79C404D9259272DD00431C13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79C404DD259272DD00431C13 /* PBXTargetDependency */,
+			);
+			name = PotapUITests;
+			productName = PotapUITests;
+			productReference = 79C404DB259272DD00431C13 /* PotapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79C404B2259272DA00431C13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					79C404B9259272DA00431C13 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					79C404CF259272DD00431C13 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 79C404B9259272DA00431C13;
+					};
+					79C404DA259272DD00431C13 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 79C404B9259272DA00431C13;
+					};
+				};
+			};
+			buildConfigurationList = 79C404B5259272DA00431C13 /* Build configuration list for PBXProject "Potap" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79C404B1259272DA00431C13;
+			productRefGroup = 79C404BB259272DA00431C13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79C404B9259272DA00431C13 /* Potap */,
+				79C404CF259272DD00431C13 /* PotapTests */,
+				79C404DA259272DD00431C13 /* PotapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79C404B8259272DA00431C13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79C404CA259272DD00431C13 /* LaunchScreen.storyboard in Resources */,
+				79C404C7259272DD00431C13 /* Assets.xcassets in Resources */,
+				79C404C5259272DA00431C13 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79C404CE259272DD00431C13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79C404D9259272DD00431C13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79C404B6259272DA00431C13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79C404C2259272DA00431C13 /* ViewController.swift in Sources */,
+				79C404BE259272DA00431C13 /* AppDelegate.swift in Sources */,
+				79C404C0259272DA00431C13 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79C404CC259272DD00431C13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79C404D5259272DD00431C13 /* PotapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79C404D7259272DD00431C13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79C404E0259272DD00431C13 /* PotapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79C404D2259272DD00431C13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79C404B9259272DA00431C13 /* Potap */;
+			targetProxy = 79C404D1259272DD00431C13 /* PBXContainerItemProxy */;
+		};
+		79C404DD259272DD00431C13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79C404B9259272DA00431C13 /* Potap */;
+			targetProxy = 79C404DC259272DD00431C13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79C404C3259272DA00431C13 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79C404C4259272DA00431C13 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		79C404C8259272DD00431C13 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79C404C9259272DD00431C13 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79C404E2259272DD00431C13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		79C404E3259272DD00431C13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79C404E5259272DD00431C13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Potap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Richard.Potap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79C404E6259272DD00431C13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Potap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Richard.Potap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		79C404E8259272DD00431C13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PotapTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Richard.PotapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Potap.app/Potap";
+			};
+			name = Debug;
+		};
+		79C404E9259272DD00431C13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PotapTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Richard.PotapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Potap.app/Potap";
+			};
+			name = Release;
+		};
+		79C404EB259272DD00431C13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PotapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Richard.PotapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Potap;
+			};
+			name = Debug;
+		};
+		79C404EC259272DD00431C13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PotapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Richard.PotapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Potap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79C404B5259272DA00431C13 /* Build configuration list for PBXProject "Potap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79C404E2259272DD00431C13 /* Debug */,
+				79C404E3259272DD00431C13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79C404E4259272DD00431C13 /* Build configuration list for PBXNativeTarget "Potap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79C404E5259272DD00431C13 /* Debug */,
+				79C404E6259272DD00431C13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79C404E7259272DD00431C13 /* Build configuration list for PBXNativeTarget "PotapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79C404E8259272DD00431C13 /* Debug */,
+				79C404E9259272DD00431C13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79C404EA259272DD00431C13 /* Build configuration list for PBXNativeTarget "PotapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79C404EB259272DD00431C13 /* Debug */,
+				79C404EC259272DD00431C13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79C404B2259272DA00431C13 /* Project object */;
+}
