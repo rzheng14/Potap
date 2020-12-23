@@ -15,6 +15,12 @@
 		79C404CA259272DD00431C13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79C404C8259272DD00431C13 /* LaunchScreen.storyboard */; };
 		79C404D5259272DD00431C13 /* PotapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C404D4259272DD00431C13 /* PotapTests.swift */; };
 		79C404E0259272DD00431C13 /* PotapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C404DF259272DD00431C13 /* PotapUITests.swift */; };
+		79C404F12592740C00431C13 /* Rectangle 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 79C404F02592740C00431C13 /* Rectangle 2.png */; };
+		79C404F6259274E700431C13 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 79C404F5259274E700431C13 /* background.png */; };
+		79C404FB2592757F00431C13 /* button2.png in Resources */ = {isa = PBXBuildFile; fileRef = 79C404FA2592757F00431C13 /* button2.png */; };
+		79C405002592758400431C13 /* button1.png in Resources */ = {isa = PBXBuildFile; fileRef = 79C404FF2592758400431C13 /* button1.png */; };
+		79C4050D259276CD00431C13 /* potato 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 79C40506259276CD00431C13 /* potato 1.png */; };
+		79C4051D25928B2D00431C13 /* FriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C4051C25928B2D00431C13 /* FriesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		79C404DB259272DD00431C13 /* PotapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PotapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79C404DF259272DD00431C13 /* PotapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PotapUITests.swift; sourceTree = "<group>"; };
 		79C404E1259272DD00431C13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79C404F02592740C00431C13 /* Rectangle 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rectangle 2.png"; sourceTree = SOURCE_ROOT; };
+		79C404F5259274E700431C13 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = SOURCE_ROOT; };
+		79C404FA2592757F00431C13 /* button2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button2.png; sourceTree = SOURCE_ROOT; };
+		79C404FF2592758400431C13 /* button1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button1.png; sourceTree = SOURCE_ROOT; };
+		79C40506259276CD00431C13 /* potato 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "potato 1.png"; sourceTree = SOURCE_ROOT; };
+		79C4051C25928B2D00431C13 /* FriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +114,16 @@
 				79C404BD259272DA00431C13 /* AppDelegate.swift */,
 				79C404BF259272DA00431C13 /* SceneDelegate.swift */,
 				79C404C1259272DA00431C13 /* ViewController.swift */,
+				79C4051C25928B2D00431C13 /* FriesView.swift */,
 				79C404C3259272DA00431C13 /* Main.storyboard */,
 				79C404C6259272DD00431C13 /* Assets.xcassets */,
 				79C404C8259272DD00431C13 /* LaunchScreen.storyboard */,
 				79C404CB259272DD00431C13 /* Info.plist */,
+				79C404F02592740C00431C13 /* Rectangle 2.png */,
+				79C404FF2592758400431C13 /* button1.png */,
+				79C40506259276CD00431C13 /* potato 1.png */,
+				79C404FA2592757F00431C13 /* button2.png */,
+				79C404F5259274E700431C13 /* background.png */,
 			);
 			path = Potap;
 			sourceTree = "<group>";
@@ -232,6 +250,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				79C404CA259272DD00431C13 /* LaunchScreen.storyboard in Resources */,
+				79C404F6259274E700431C13 /* background.png in Resources */,
+				79C404FB2592757F00431C13 /* button2.png in Resources */,
+				79C405002592758400431C13 /* button1.png in Resources */,
+				79C4050D259276CD00431C13 /* potato 1.png in Resources */,
+				79C404F12592740C00431C13 /* Rectangle 2.png in Resources */,
 				79C404C7259272DD00431C13 /* Assets.xcassets in Resources */,
 				79C404C5259272DA00431C13 /* Main.storyboard in Resources */,
 			);
@@ -260,6 +283,7 @@
 			files = (
 				79C404C2259272DA00431C13 /* ViewController.swift in Sources */,
 				79C404BE259272DA00431C13 /* AppDelegate.swift in Sources */,
+				79C4051D25928B2D00431C13 /* FriesView.swift in Sources */,
 				79C404C0259272DA00431C13 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -348,8 +372,10 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = FXQXW7QLKM;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -409,8 +435,10 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = FXQXW7QLKM;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -438,6 +466,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Potap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,6 +485,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Potap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
